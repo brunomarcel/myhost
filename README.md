@@ -2,14 +2,14 @@
 
 ###Dar permissao ao hosts
 
-Exemplo
+Exemplo<br>
 sudo chown bmarcondes:bmarcondes /etc/hosts
 
 --------------------------
 
 ###Criar alias para atalho
 
-Exemplo
+Exemplo<br>
 alias myhost="python ~/git/myhost/main.py"
 
 --------------------------
@@ -17,7 +17,7 @@ alias myhost="python ~/git/myhost/main.py"
 ###Cria o host default
 Limpar todo o arquivo de hosts antes de executar esse comando
 
-Exemplo
+Exemplo<br>
 myhost init
 
 --------------------------
@@ -25,7 +25,7 @@ myhost init
 Criar um arquivo dentro da pasta hosts
 Nesse exemplo existe um arquivo chamado teste.host
 
-Exemplo
+Exemplo<br>
 myhost teste
 
 --------------------------
@@ -33,12 +33,12 @@ myhost teste
 ###Zerar o host
 Nao colocar nome de arquivo
 
-Exemplo
+Exemplo<br>
 myhost
 
 --------------------------
 
 ###Ler o host atual
 
-Exemplo
+Exemplo<br>
 myhost read
