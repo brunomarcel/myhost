@@ -16,11 +16,18 @@ alias myhost="python ~/git/myhost/main.py"
 
 --------------------------
 
+###Cria o host default
+###Limpar todo o arquivo de hosts antes de executar esse comando
+
+Exemplo
+myhost init
+
+--------------------------
 ###Trocar o host
 myhost <filename>
 
 Exemplo
-myhost tvuol
+myhost teste
 
 --------------------------
 
