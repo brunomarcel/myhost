@@ -1,7 +1,6 @@
 # myhost
 
 ###Dar permissao ao hosts
-sudo chown <username>:<username> <path/to/hosts/file>
 
 Exemplo
 sudo chown bmarcondes:bmarcondes /etc/hosts
@@ -9,7 +8,6 @@ sudo chown bmarcondes:bmarcondes /etc/hosts
 --------------------------
 
 ###Criar alias para atalho
-alias myhost="python <path/to/arquivo/main.py>
 
 Exemplo
 alias myhost="python ~/git/myhost/main.py"
@@ -24,7 +22,8 @@ myhost init
 
 --------------------------
 ###Trocar o host
-myhost <filename>
+###Criar um arquivo dentro da pasta hosts
+###Nesse exemplo existe um arquivo chamado teste.host
 
 Exemplo
 myhost teste
@@ -32,7 +31,7 @@ myhost teste
 --------------------------
 
 ###Zerar o host
-Nao colocar nome de arquivo
+###Nao colocar nome de arquivo
 
 Exemplo
 myhost
