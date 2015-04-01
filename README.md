@@ -15,15 +15,15 @@ alias myhost="python ~/git/myhost/main.py"
 --------------------------
 
 ###Cria o host default
-###Limpar todo o arquivo de hosts antes de executar esse comando
+Limpar todo o arquivo de hosts antes de executar esse comando
 
 Exemplo
 myhost init
 
 --------------------------
 ###Trocar o host
-###Criar um arquivo dentro da pasta hosts
-###Nesse exemplo existe um arquivo chamado teste.host
+Criar um arquivo dentro da pasta hosts
+Nesse exemplo existe um arquivo chamado teste.host
 
 Exemplo
 myhost teste
@@ -31,7 +31,7 @@ myhost teste
 --------------------------
 
 ###Zerar o host
-###Nao colocar nome de arquivo
+Nao colocar nome de arquivo
 
 Exemplo
 myhost
