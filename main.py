@@ -27,7 +27,28 @@ else:
 		print "Execute myhost init\n"
 		sys.exit()
 
-	if len(sys.argv) > 1:
+	if len(sys.argv) > 2 and sys.argv[1] == '-w':
+
+		linhas = []
+
+                try:
+                        response = 'custom'
+                        for l in range(2, len(sys.argv)):
+                                if sys.argv[l].find('-') != -1:
+                                    linhas.append(sys.argv[l].replace('-', ' ')+'\n')
+                                else: 
+                                    linhas.append('127.0.0.1 '+sys.argv[l]+'\n')
+                                
+
+                except:
+                        print 'Arquivo '+sys.argv[1]+'.host nao encontrado.'	
+                        sys.exit()
+
+		hosts = open('/etc/hosts', 'a')
+		hosts.writelines(linhas)
+		hosts.close()
+
+	elif len(sys.argv) > 1:
 
 		default = open(curPath+'/default.host', 'r')
 		linhas = default.readlines()
